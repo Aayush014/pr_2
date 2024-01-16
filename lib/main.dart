@@ -14,7 +14,10 @@ void main() {
               color: Colors.white,
             ),
             backgroundColor: const Color(0xffE84545),
-            title: Text("Red & White"),
+            title: const Text(
+              "Red & White",
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
             centerTitle: true,
           ),
           body: Center(
@@ -37,8 +40,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                   TextSpan(
                     text: "APHICS",
@@ -46,8 +48,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.green,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   //2 ✔️
                   TextSpan(
@@ -56,8 +57,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.blue,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   TextSpan(
                     text: "E",
@@ -65,8 +65,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                   TextSpan(
                     text: "R",
@@ -74,8 +73,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.blue,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   //3 ✔️
                   TextSpan(
@@ -93,8 +91,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                   TextSpan(
                     text: "ROID\n",
@@ -102,8 +99,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.green,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   // //4 ✔️
                   TextSpan(
@@ -112,8 +108,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.yellow,
                         fontSize: 25,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   TextSpan(
                     text: " & ",
@@ -121,8 +116,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                   TextSpan(
                     text: "DEVELOPE\n",
@@ -130,8 +124,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.yellow,
                         fontSize: 25,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   // //5 ✔️
                   TextSpan(
@@ -140,8 +133,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                   TextSpan(
                     text: "EB\n",
@@ -149,8 +141,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.blue,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   // //6 ✔️
                   TextSpan(
@@ -159,8 +150,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.yellow,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   TextSpan(
                     text: "H",
@@ -168,8 +158,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                   TextSpan(
                     text: "ION\n",
@@ -177,8 +166,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.yellow,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   // //7 ✔️
                   TextSpan(
@@ -196,8 +184,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                   TextSpan(
                     text: "ON",
@@ -205,8 +192,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.greenAccent,
                         fontSize: 28,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   // //8 ✔️
                   TextSpan(
@@ -215,8 +201,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.blue,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   TextSpan(
                     text: "T",
@@ -224,8 +209,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                   TextSpan(
                     text: "A-CS+\n",
@@ -233,8 +217,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.blue,
                         fontSize: 30,
-                        fontWeight: FontWeight.w600
-                    ),
+                        fontWeight: FontWeight.w600),
                   ),
                   // //9
                   TextSpan(
@@ -252,8 +235,7 @@ void main() {
                         letterSpacing: 1,
                         color: Colors.red,
                         fontSize: 40,
-                        fontWeight: FontWeight.bold
-                    ),
+                        fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
